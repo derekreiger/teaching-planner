@@ -1,0 +1,5 @@
+#!/bin/bash
+# create test fixtures
+
+cd $pa
+python manage.py dumpdata -e contenttypes -e admin -e auth.Permission -e sessions --indent=2

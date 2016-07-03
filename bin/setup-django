@@ -1,0 +1,20 @@
+#!/bin/bash
+# Install django and other dependencies
+
+# Django 
+pip install Django
+pip install django-extensions
+pip install django-filter
+pip install django-ses
+pip install djangorestframework
+
+# Postgresql
+pip install psycopg2
+
+# Pillow
+pip install -I pillow
+
+# Social Authentication
+pip install python-social-auth
+
+pip list

@@ -1,0 +1,4 @@
+#!/bin/bash
+# Kill the server
+x=`ps -ef | grep -v grep | grep runserver | awk '{ print $2 }'`
+[ ! -z "$x" ] && echo kill $x && kill $x
